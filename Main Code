@@ -1,0 +1,16 @@
+class Main {
+  class Quiz{
+    private ArrayList<String[]> questions = new ArrayList<String>();
+    private int numPoints;
+  }
+  
+ // public String getQuestions(){
+   // return questions;
+  // }
+  public static void main(String[] args) {
+   
+    Quiz quiz = new Quiz();
+    Scanner scnr = new Scanner();
+    
+  }
+}
