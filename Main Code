@@ -1,23 +1,32 @@
 class Main {
 
   class Quiz{
-    private String questions[] = new String{};
+    private String questions[] = new String{"Questions 1"};
     private int numPoints;
-    private string[] answers = new String{};
+    private string[] answers = new String{"Answer 1"};
   }
-  
- // public String getQuestions(){
-   // return questions;
-  // }
 
-    public 
+  public Quiz(int points){
+    numPoints = points;
+  }
+     
+  public String getQuestions(){
+   return questions[];
+   }
+
+    public String getAnswers(){
+      return answers[];
+    }
 
   public static void main(String[] args) {
    
     int i = 0;
+    int  points = 0;
     Quiz quiz = new Quiz();
     Scanner scnr = new Scanner();
-    
+    String playerAnswer;
+
+    while()
    
   }
 } 
